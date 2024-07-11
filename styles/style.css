@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid rgb(146, 143, 143);
+  gap: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.text_input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(146, 143, 143);
+}
+
+.create-button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+}

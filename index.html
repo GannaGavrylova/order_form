@@ -8,21 +8,31 @@
   </head>
   <body>
     <form class="container">
-      <h3>Создание заказа</h3>
-      <input
-        type="text"
-        class="text-addresse"
-        name="text"
-        placeholder="Адрес"
-      />
-      <input type="text" class="text-price" name="price" placeholder="Цена" />
-      <input
-        type="text"
-        class="text-recipient"
-        name="text"
-        placeholder="Получатель"
-      />
-      <button class="create-button">Создать</button>
+      <div class="forms">
+        <h4>Создание заказа</h4>
+        <input
+          type="address"
+          class="text_input addresse"
+          name="text"
+          placeholder="Адрес"
+          required
+        />
+        <input
+          type="text"
+          class="text_input price"
+          name="price"
+          placeholder="Цена"
+        />
+        <input
+          type="text"
+          class="text_input recipient"
+          name="text"
+          placeholder="Получатель"
+        />
+        <button class="create-button">Создать</button>
+        <div class="inform-buttons"></div>
+      </div>
+      <div class="inform-forms"></div>
     </form>
 
     <script src="scripts/scrip.js"></script>
